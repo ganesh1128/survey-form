@@ -1,0 +1,182 @@
+body{
+    background-color: #e6fbfc;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left{
+    width: 30%;
+    margin-top: 0px;
+    padding-left: 10%;
+    
+    text-align: left;
+    
+}
+.p,h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#graph{
+    color: rgb(230, 181, 91);
+}
+
+#obe{
+    color: rgb(35, 170, 233);
+}
+
+.line{
+   
+    margin-top: 0px;
+    border-left:2px dashed rgb(150, 142, 142);
+    height: 1200px;
+    position: absolute;
+    left: 50%;
+    margin-left: 30px;
+    top: 0;
+    
+    
+}
+.right{
+    width: 50%;
+    margin-top: 0px;
+    padding-right: 25%;
+    text-align: right;
+    margin-left: 200px
+}
+.image1{
+    height: 100px;
+    width: 100px;
+    margin-left: 140%;
+    
+}
+.img1{
+    height: 75px;
+    width: 75px;
+    opacity: 0.5;
+    margin-left: 180%;
+}
+
+
+.image3{
+    height: 100px;
+    width: 100px;
+}
+.img3{
+    height: 75px;
+    width: 75px;
+    opacity: 0.5;
+    margin-left: -30%;
+
+
+}
+.centreflex{
+    color: white;
+    background-color: rgb(5, 138, 199);
+    padding-right: 110px;
+    padding-left: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: inherit;
+    
+
+}
+.near{
+    font-size: 1.8rem;
+    color: #042f66;
+    margin-left: 47px;
+    width: 0px;
+
+}
+.pizza{
+    height: 15vh;
+    width: 15vh;
+    margin-left: 6px
+}
+.man{
+    height: 9vh;
+    width: 5vh;
+}
+.blue{
+    color: #39A2DB;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image{
+    
+    height: 20vh;
+    width: 20vh;
+    margin: 0;
+    padding-left: 25px;
+    margin-top: -15%;
+
+}
+.center{
+    text-align: center;
+}
+.veg{
+    height: 25vh;
+    width: 25vh;
+}
+.chick{
+    height: 14vh;
+    width: 14vh;
+    margin-left: 25%;
+}
+.milk{
+    height: 15vh;
+    width: 11vh;
+    padding-left: 12%;
+
+}
+.diabetes{
+    height: 15vh;
+    width: 15vh;
+}
+
+.heart{
+    height: 12vh;
+    width: 12vh;
+}
+
+.cancer{
+    height: 15vh;
+    width: 15vh;
+}
+.near{
+    font-size: 1.8rem;
+    color: #042f66;
+    margin-left: 9%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.final{
+    margin-top: 41px;
+    margin-left: 15px;
+}
+.peo{
+    margin-top: -5%;
+    width: 47%;
+}
+
+.people{
+    color: gold;
+    font-size: 25px;
+    width: 130px;
+    margin-top: -1%;
+
+
+}
+.gender{
+    color: gold;
+    font-size: 2rem;
+    margin-top: 35px;
+    padding-left: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.gen{
+    color: gold;
+    font-size: 2rem;
+    margin-top: 5px;
+    padding-left: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
