@@ -1,0 +1,54 @@
+
+.checked{
+    color: orange
+}
+.align{
+    margin-left: -5rem;
+}
+.very{
+    margin-left: -4%;
+}
+.align1{
+    margin-left: -7%;
+}
+.very1{
+    margin-left: -3%;
+}
+
+
+
+/* .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.top{
+    padding-top: 35px;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: .3rem;
+    margin-left: 1.75rem;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .mobile1{
+        width: 56rem;
+    }
+   
+
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1025px;
+}
+}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+    width: 60rem;
+}
+}

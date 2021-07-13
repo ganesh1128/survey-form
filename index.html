@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" 
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" 
+    crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" 
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" 
+    crossorigin="anonymous"> -->
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="container">
+            <form>
+                <div class="surveyForm">
+                    <div class="col-lg-12">
+                        <label for="name">
+                            <h5>Name<span class="text-danger">*</span></h5>
+                        </label>
+
+                        <div class="row">
+
+                            <div class="form-group col-lg-3 col-md-6 col-sm-12">
+                                <input type="text" class="form-control" id="fName" placeholder="Firstname" required>
+                                <label for="fName">
+                                    <h5 class="font-weight-light">First<span class="text-danger">*</span></h5>
+                                </label>
+                            </div>
+                            <div class="form-group col-lg-3 col-md-6 col-sm-12">
+                                <input type="text" class="form-control" id="lName" placeholder="Lastname" required>
+                                <label for="lName">
+                                    <h5 class="font-weight-light">Last<span class="text-danger">*</span></h5>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-lg-6 col-md-12">
+                        <label for="inputAddress">
+                            <h5>Email<span class="text-danger">*</span></h5>
+                        </label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="email" required>
+                    </div>
+                </div>
+                <div class="container">
+                    <h5>
+                        Your Experience <span class="text-danger">*</span>
+                    </h5>
+                    <span><i class="fa fa-star checked"></i></span>
+                    <span><i class="fa fa-star checked"></i></span>
+                    <span><i class="fa fa-star checked"></i></span>
+                    <span><i class="fa fa-star checked"></i></span>
+                    <span><i class="fa fa-star checked"></i></span>
+                    <p>Overall how would you rate experoence with us?</p>
+                    <h5 style="padding-top: 2rem;">How satisfied are you with<span class="text-danger">*</span></h5>
+                </div>
+
+
+                <div class="container" style="width:57.5rem">
+
+                    <table class="table table-borderless table-light table-striped">
+                        <thead>
+                            <tr>
+                                <th style="padding-left: 11rem;"></th>
+                                <th>Very Unsatisfied</th>
+                                <th>Unsatisfied</th>
+                                <th style="padding-left: 2rem;">Neutral</th>
+                                <th>sattisfied</th>
+                                <th>Very Satisfied</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Purchase</td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions11"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions11"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions11"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions11"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions11"
+                                            id="inlineRadio1"></div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>Service</td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions33"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions33"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions33"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions33"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions33"
+                                            id="inlineRadio1"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Company Service</td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions22"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions22"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions22"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions22"
+                                            id="inlineRadio1"></div>
+                                </td>
+                                <td>
+                                    <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions22"
+                                            id="inlineRadio1"></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container" style="width:57.5rem">
+                    <table class="table table-borderless table-light table-striped">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Very Unlikely</th>
+                                <th> Unlikely</th>
+                                <th>Neutral</th>
+                                <th style="padding-left: 2rem;">likely</th>
+                                <th>Very likely</th>
+                            </tr>
+                </div>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Buy from us again</td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    id="inlineRadio1"></div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Recommended our <br>product to others</td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio2"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio2"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio2"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio2"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio2"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Recommended our <br>company to others</td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio1"></div>
+                        </td>
+                        <td>
+                            <div class="col-2 left1"><input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio1"></div>
+                        </td>
+                    </tr>
+                </tbody>
+
+                </table>
+        </div>
+        <div class="container">
+            <h5 class="top">Additional comments or suggestion</h5>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group green-border-focus" style="width:100%; height:9rem;  ">
+                        <label for="exampleFormControlTextarea5"></label>
+                        <textarea class="form-control mobile1" id="exampleFormControlTextarea5" rows="3"></textarea>
+                        <button>Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </form>
+</body>
+
+</html>
